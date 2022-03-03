@@ -1,0 +1,24 @@
+{
+  "name": "node.js-codes",
+  "version": "1.0.0",
+  "description": "node.js codes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariomgola/node.js-codes.git"
+  },
+  "author": "hariom kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariomgola/node.js-codes/issues"
+  },
+  "homepage": "https://github.com/hariomgola/node.js-codes#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
