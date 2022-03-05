@@ -13,10 +13,12 @@ const readfileExportArray = async (file_name) => {
     for (let i = 0; i < data.length; i++) {
       data[i] = data[i].replace("\r", "");
     }
-    // console.log(data)
+    console.log(JSON.stringify(data));
     return data;
   });
 };
+
+readfileExportArray("lowestStartingStairs2.txt");
 
 module.exports = {
   readfileExportArray,
